@@ -25,3 +25,6 @@ minio:
   access-key: minioadmin
   secret-key: minioadmin
   bucket-name: lease
+
+myy:
+  name:kk
