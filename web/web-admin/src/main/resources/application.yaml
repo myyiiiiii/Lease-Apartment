@@ -26,5 +26,6 @@ minio:
   secret-key: minioadmin
   bucket-name: lease
 
-myy:
-  name:kk
+springdoc:
+  default-flat-param-object: true
+
