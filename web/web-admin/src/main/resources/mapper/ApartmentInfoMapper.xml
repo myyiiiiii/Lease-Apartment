@@ -65,6 +65,5 @@
         and status in (2, 5)
         group by apartment_id) cc
         on ai.id = cc.apartment_id
-
     </select>
 </mapper>

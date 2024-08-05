@@ -1,6 +1,8 @@
 server:
   port: 8080
 spring:
+  jackson:
+    time-zone: GMT+8
   datasource:
     type: com.zaxxer.hikari.HikariDataSource
     url: jdbc:mysql://localhost:3306/lease?useUnicode=true&characterEncoding=utf-8&useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=GMT%2b8

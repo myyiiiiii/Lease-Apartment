@@ -192,6 +192,9 @@ public class ApartmentInfoServiceImpl extends ServiceImpl<ApartmentInfoMapper, A
             throw new LeaseException(ResultCodeEnum.ADMIN_APARTMENT_DELETE_ERROR);
         }
 
+
+
+
         super.removeById(id);
         LambdaQueryWrapper<GraphInfo>graphInfoLambdaQueryWrapper=new LambdaQueryWrapper<>();
         graphInfoLambdaQueryWrapper.eq(GraphInfo::getItemType, ItemType.APARTMENT);
